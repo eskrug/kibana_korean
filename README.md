@@ -5,6 +5,8 @@ kibana에서는 기본적으로 영어를 지원하고, 공식적으로 일본�
 아직 한국어는 지원이 되지 않고 있어 일본어 파일을 구글번역 API를 통해 자동으로 번역하여 한글용 파일을 만들었습니다.
 따라서 번역 퀄리티가 부족한 부분이 있습니다.
 
+Kibana version 7.6.1을 기준으로 작성되었습니다.
+
 ## 셋팅방법
 1) create folder) KIBANA_HOME/x-pack/translations
 2) create file) KIBANA_HOME/x-pack/.i18nrc.json
