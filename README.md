@@ -31,5 +31,14 @@ i18n.locale: "ko-KR"
 #### 2) 이슈 생성
 - issue tap에서 `new issue` 클릭
   ![issue create](https://github.com/eskrug/kibana_korean/blob/master/img/1.png "issue create")
-- 
+- 아래의 예시와 같이 내용 작성
+  ![issue contents](https://github.com/eskrug/kibana_korean/blob/master/img/2.png "issue context")
+```
+<< title >>
+ko-KR.json 내용 수정
 
+<< contents >> 
+url : http://localhost:5601/app/kibana#/home
+current text : 데이터 세트와 Kibana 대시 보드를로드
+tobe text : 데이터와 Kibana 대시보드 로드
+```
