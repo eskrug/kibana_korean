@@ -5480,7 +5480,7 @@
     "xpack.canvas.timePicker.applyButtonLabel": "적용 가능",
     "xpack.canvas.toolbar.editorButtonLabel": "표현 편집기",
     "xpack.canvas.toolbar.nextPageAriaLabel": "다음 페이지",
-    "xpack.canvas.toolbar.pageButtonLabel": "ペ ー ジ PAGENO {} {} 나머지",
+    "xpack.canvas.toolbar.pageButtonLabel": "페이지{pageNum}{rest}",
     "xpack.canvas.toolbar.previousPageAriaLabel": "이전",
     "xpack.canvas.toolbar.workpadManagerCloseButtonLabel": "닫기",
     "xpack.canvas.toolbarTray.closeTrayAriaLabel": "트레이를 복제",
