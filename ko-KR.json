@@ -1922,7 +1922,7 @@
     "kbn.home.addData.metrics.addMetricsDataButtonLabel": "메트릭 데이터를 추가",
     "kbn.home.addData.metrics.nameDescription": "서버의 운영 체제와 실행중인 서비스에서 통계를 수집합니다.",
     "kbn.home.addData.metrics.nameTitle": "메트릭",
-    "kbn.home.addData.sampleDataLink": "데이터 세트와 Kibana 대시 보드를로드",
+    "kbn.home.addData.sampleDataLink": "데이터와 Kibana 대시보드 로드",
     "kbn.home.addData.sampleDataTitle": "샘플 데이터 추가",
     "kbn.home.addData.siem.addSiemEventsButtonLabel": "보안 이벤트를 추가",
     "kbn.home.addData.siem.nameDescription": "즉시 사용 가능한 시각화에서 보안 이벤트를 정리해 인터랙티브 조사를 가능하게합니다.",
