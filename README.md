@@ -16,7 +16,7 @@ Kibana version 7.6.1을 기준으로 작성되었습니다.
     "plugins/translations/translations/ko-KR.json"
   ]
 ```
-2) create file) KIBANA_HOME/x-pack/translations/ko-KR.json
+2) create file) KIBANA_HOME/x-pack/plugins/translations/translations/ko-KR.json
 3) kibana.yml에 locale 셋팅 추가
 ```
 i18n.locale: "ko-KR" 
