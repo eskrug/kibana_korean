@@ -8,32 +8,28 @@ kibana에서는 기본적으로 영어를 지원하고, 공식적으로 일본�
 Kibana version 7.6.1을 기준으로 작성되었습니다.
 
 ## 셋팅방법
-1) create folder) KIBANA_HOME/x-pack/translations
-2) create file) KIBANA_HOME/x-pack/.i18nrc.json
-3) create file) KIBANA_HOME/x-pack/translations/ko-KR.json
-4) add line into kibana.yml) i18n.locale: "ko-KR" 
-
-
-.i18nrc.json
-
+1) KIBANA_HOME/x-pack/.i18nrc.json 파일에 한국어 파일 추가
 ```
-{
-
-  "exclude": [
-
-  ],
-
   "translations": [
-
-    "translations/ko-KR.json"
-
+    "plugins/translations/translations/zh-CN.json",
+    "plugins/translations/translations/ja-JP.json",
+    "plugins/translations/translations/ko-KR.json"
   ]
-
-}
+```
+2) create file) KIBANA_HOME/x-pack/translations/ko-KR.json
+3) kibana.yml에 locale 셋팅 추가
+```
+i18n.locale: "ko-KR" 
 ```
 
 ## 수정 참여 부탁
 사용하시면서 수정이 필요한 부분이 보이면 언제든지 수정에 참여해주시기 바랍니다.
-힘을 합쳐 키바나에서 보다 나은 한국어 지원이 가능하도록 발전시켰으면 좋겠습니다.
+많은 분들이 참여하여 키바나에서 보다 나은 한국어 지원이 가능하도록 발전시켰으면 좋겠습니다.
 
+### 수정 요청 방법
+#### 1) ko-KR.json 수정 후 pull request
+#### 2) 이슈 생성
+- issue tap에서 `new issue` 클릭
+  ![issue create](https://github.com/eskrug/kibana_korean/blob/master/img/1.png "issue create")
+- 
 
